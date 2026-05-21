@@ -236,7 +236,7 @@ No Twitter card variants (covered by OG fallback). No structured data (overkill 
 Before declaring the work complete:
 
 - [ ] `index.html` opens correctly when double-clicked locally (file:// protocol — must not depend on a server)
-- [ ] All paths are root-relative (`/favicon.svg`, `/styles.css`), no absolute or `./` paths
+- [ ] Asset paths are relative (`favicon.svg`, `styles.css`), not root-relative — root-relative paths resolve against the drive root under `file://` and break the local preview
 - [ ] No console errors / warnings in browser DevTools
 - [ ] Lighthouse accessibility score ≥ 95 (informational, not a blocker)
 - [ ] Renders correctly on mobile (Chrome DevTools mobile emulation, then real device after deploy)
