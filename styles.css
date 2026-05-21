@@ -87,7 +87,9 @@ header {
 }
 
 .brand-name {
-  letter-spacing: -0.01em;
+  font-family: 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.05em;
 }
 
 .nav-contact {
