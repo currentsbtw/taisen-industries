@@ -144,11 +144,13 @@ main {
 }
 
 h1 {
-  font-weight: 200;
-  font-size: clamp(48px, 8vw, 96px);
-  letter-spacing: -0.02em;
+  font-family: Impact, 'Haettenschweiler', 'Franklin Gothic Bold', 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: clamp(56px, 9vw, 112px);
+  letter-spacing: 0;
   margin-bottom: 16px;
-  line-height: 1.05;
+  line-height: 1.0;
 }
 
 .tagline {
