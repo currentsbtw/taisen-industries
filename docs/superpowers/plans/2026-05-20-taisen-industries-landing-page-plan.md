@@ -2,6 +2,19 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
+**Status:** **SHIPPED 2026-05-21** — site is live at https://taisenindustries.com. See *Execution deviations* below for the gap between this plan and what actually shipped.
+
+## Execution deviations (2026-05-21)
+
+Source of truth is the repo at HEAD. Major deviations:
+
+- **Copy/styling changes during local verification** (Task 5 hand-off, before push): tagline reworded to "Technology and Applied Research", header wordmark switched to kanji "大戦", H1 changed to Impact italic, hero body paragraph + all meta labels removed. Reflected in the spec's *As-built deviations* section.
+- **Asset paths in `index.html`:** root-relative paths (`/styles.css`, `/favicon.svg`) broke `file://` local preview. Fixed to relative paths (`styles.css`, `favicon.svg`) — same behavior on GitHub Pages, but works locally too.
+- **DNS (plan Task 8) — significant deviation:** the domain's nameservers were delegated to Northwest's `businessidentity.llc` infrastructure. Northwest's DNS UI silently failed to save CNAME records, and during troubleshooting Ace accidentally deleted Northwest's default email-discovery CNAMEs. Recovery path: migrated DNS hosting to Cloudflare entirely. Northwest still holds the registration; Cloudflare manages all DNS records. MX and SPF TXT were preserved verbatim; mail receives normally. Northwest's deleted email-access CNAMEs (psrp, etc.) are still missing — Northwest support can restore on next business day, then those need to be re-added in Cloudflare.
+- **Custom Apple-account-related work to follow:** privacy policy + terms pages (`/privacy`, `/terms`) deferred until Adaptus is submitted to the App Store. The corporate site itself is sufficient for LLC verification.
+
+---
+
 **Goal:** Ship a minimal corporate landing page for Taisen Industries LLC at `taisenindustries.com`, hosted on GitHub Pages, satisfying Apple Developer Program's web-presence requirement.
 
 **Architecture:** Single static page (no build step, no JavaScript), hand-written `index.html` + `styles.css` + `favicon.svg`, served from a GitHub Pages project repo with a custom domain. Dark atmospheric aesthetic with deep crimson accent glow.

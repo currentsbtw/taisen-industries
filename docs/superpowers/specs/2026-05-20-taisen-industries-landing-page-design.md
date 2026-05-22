@@ -1,8 +1,19 @@
 # Taisen Industries — Landing Page Design
 
 **Date:** 2026-05-20
-**Status:** Design approved; awaiting written-spec review before implementation planning
+**Status:** **SHIPPED 2026-05-21** — live at https://taisenindustries.com. Several copy and styling decisions changed during execution; see *As-built deviations* below.
 **Author:** Ace (with Claude)
+
+## As-built deviations (2026-05-21)
+
+The repo at HEAD is source of truth. Notable differences from the planned design:
+
+- **Tagline:** "Holdings and applied research." → **"Technology and Applied Research"** (Ace reframed to less explicitly holding-company language during execution)
+- **Header wordmark:** "Taisen Industries" → **"大戦"** kanji (Japanese for *taisen*, "great contest/battle"). Brand-name CSS gained a Japanese font stack (Yu Gothic / Hiragino / Meiryo).
+- **Hero H1:** Inter weight 200 → **Impact italic** (browser-synthesized oblique). Font-size clamp range bumped to `(56px, 9vw, 112px)` since Impact's narrower glyphs occupy less horizontal space.
+- **Removed from hero:** meta-top label (`· est. 2024 ·`), body paragraph, meta-bottom labels (`· Sacramento, California ·` / `· LLC ·`). Hero is now headline → tagline → buttons only.
+- **Asset paths:** root-relative (`/styles.css`) → **relative** (`styles.css`). Root-relative paths resolve against the drive root under `file://` and broke the local preview.
+- **DNS hosting:** migrated from Northwest's `businessidentity.llc` nameservers to **Cloudflare** during execution. Northwest's DNS panel silently failed to save CNAMEs; migration also future-proofs against repeating the issue.
 
 ## Purpose
 
@@ -10,7 +21,7 @@ A minimal, professional single-page corporate site for **Taisen Industries LLC**
 
 The page exists to satisfy the Apple Developer Program's requirement that the organization behind the developer account has a verifiable web presence. It must read as a legitimate business to a human reviewer — clear identity, clear contact, real address — while leaving room for Taisen Industries to grow into a holding company across multiple ventures.
 
-The page is **pure corporate**: no product marketing, no fake metrics, no Adaptus mention. It identifies the LLC, states what it does in the most generic durable terms ("holdings and applied research"), and provides legal contact information.
+The page is **pure corporate**: no product marketing, no fake metrics, no Adaptus mention. It identifies the LLC, states what it does in the most generic durable terms ("Technology and Applied Research" — see As-built deviations), and provides legal contact information.
 
 ## Non-goals
 
