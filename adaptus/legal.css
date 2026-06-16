@@ -1,0 +1,275 @@
+/* ============================================
+   Adaptus legal pages — self-contained.
+   Reuses the Taisen palette + Inter for brand
+   consistency, but laid out for long-form reading.
+   ============================================ */
+:root {
+  --bg: #0A0A0B;
+  --bg-panel: #111114;
+  --text: #F4F4F5;
+  --text-muted: #A1A1AA;
+  --text-dim: #71717A;
+  --hairline: rgba(255, 255, 255, 0.08);
+  --crimson: #B91C1C;
+  --crimson-hover: #DC2626;
+
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+  margin: 0;
+}
+
+a {
+  color: var(--crimson-hover);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---- Header ---- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 32px;
+  max-width: 820px;
+  margin: 0 auto;
+  width: 100%;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.logo-mark {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: var(--crimson);
+  border-radius: 50%;
+}
+
+.brand-name {
+  font-family: 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+}
+
+.nav-contact {
+  font-size: 14px;
+  color: var(--text-dim);
+  transition: color 0.2s ease;
+}
+
+.nav-contact:hover {
+  color: var(--text);
+  text-decoration: none;
+}
+
+/* ---- Content ---- */
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 56px 32px 72px;
+}
+
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: clamp(32px, 5vw, 44px);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
+}
+
+.updated {
+  font-size: 13px;
+  color: var(--text-dim);
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  margin-top: 44px;
+  margin-bottom: 12px;
+  padding-top: 4px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+  margin-top: 24px;
+  margin-bottom: 6px;
+}
+
+p {
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+ul,
+ol {
+  color: var(--text-muted);
+  margin-bottom: 16px;
+  padding-left: 22px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+li::marker {
+  color: var(--text-dim);
+}
+
+strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.lead {
+  color: var(--text);
+  font-size: 17px;
+}
+
+.note {
+  background-color: var(--bg-panel);
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin: 28px 0;
+}
+
+.note p:last-child {
+  margin-bottom: 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--hairline);
+  margin: 44px 0;
+}
+
+.contact-block {
+  color: var(--text-muted);
+}
+
+.contact-block strong {
+  display: block;
+  margin-bottom: 2px;
+}
+
+/* ---- Footer ---- */
+footer {
+  border-top: 1px solid var(--hairline);
+  padding: 40px 32px 32px;
+  max-width: 820px;
+  margin: 0 auto;
+  width: 100%;
+  color: var(--text-dim);
+  font-size: 13px;
+}
+
+footer p {
+  color: var(--text-dim);
+  margin-bottom: 4px;
+}
+
+footer .legal-name {
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+footer .footer-links {
+  margin-top: 16px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+footer .footer-links a {
+  color: var(--text-dim);
+}
+
+footer .footer-links a:hover {
+  color: var(--text);
+  text-decoration: none;
+}
+
+footer .copyright {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--crimson);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+@media (max-width: 640px) {
+  header {
+    padding: 20px;
+  }
+
+  main {
+    padding: 40px 20px 56px;
+  }
+
+  footer {
+    padding: 32px 20px 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-contact,
+  footer .footer-links a {
+    transition: none;
+  }
+}
