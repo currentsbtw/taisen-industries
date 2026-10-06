@@ -1,0 +1,87 @@
+:root {
+  --bg: #fafaf8;
+  --surface: #ffffff;
+  --text: #16181c;
+  --muted: #5b6270;
+  --line: #e3e5e8;
+  --accent: #3b6ea5;
+  --canvas-frame: #16181c;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111317;
+    --surface: #181b20;
+    --text: #eceef1;
+    --muted: #9aa1ad;
+    --line: #2a2e35;
+    --accent: #7aa7d8;
+    --canvas-frame: #2a2e35;
+  }
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.55;
+}
+.wrap { max-width: 640px; margin: 0 auto; padding: 0 20px; }
+header.site { padding: 20px 0 0; }
+header.site a { color: var(--text); text-decoration: none; font-weight: 700; letter-spacing: -0.01em; }
+main { padding: 8px 0 40px; }
+h1 { font-size: 2.6rem; line-height: 1.1; letter-spacing: -0.03em; margin: 24px 0 8px; }
+h2 { font-size: 1.25rem; letter-spacing: -0.01em; margin: 36px 0 8px; }
+h3 { font-size: 1.05rem; margin: 24px 0 4px; }
+.lede { font-size: 1.2rem; color: var(--muted); margin: 0 0 24px; }
+.muted { color: var(--muted); }
+a { color: var(--accent); }
+a:hover { text-decoration-thickness: 2px; }
+
+/* Hero */
+.hero { text-align: center; padding-top: 12px; }
+.hero h1 { margin-top: 28px; }
+.stage {
+  display: inline-block;
+  padding: 10px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+}
+#reveal {
+  display: block;
+  width: min(288px, 72vw);
+  height: auto;
+  aspect-ratio: 1 / 1;
+  image-rendering: pixelated;
+  border-radius: 8px;
+  background: var(--canvas-frame);
+}
+.step { font-size: 0.9rem; color: var(--muted); margin: 10px 0 0; font-variant-numeric: tabular-nums; }
+.today { font-size: 1.05rem; font-weight: 600; margin: 20px 0 16px; font-variant-numeric: tabular-nums; }
+.badge { display: inline-block; line-height: 0; border-radius: 10px; }
+.badge:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.badge svg { width: 180px; height: auto; }
+
+/* Features */
+.features { list-style: none; padding: 0; margin: 40px 0 0; display: grid; gap: 12px; }
+.features li {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+.features strong { display: block; }
+.features span { color: var(--muted); font-size: 0.95rem; }
+
+/* Footer */
+footer.site { border-top: 1px solid var(--line); padding: 20px 0 32px; font-size: 0.9rem; color: var(--muted); }
+footer.site nav { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 8px; }
+
+/* Text pages */
+.doc h1 { font-size: 2rem; }
+.doc ul { padding-left: 1.2em; }
+.doc li { margin: 4px 0; }

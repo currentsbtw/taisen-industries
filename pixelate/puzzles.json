@@ -1,0 +1,1439 @@
+{
+  "version": 1,
+  "epoch": "2026-10-31",
+  "reset": "local-midnight",
+  "puzzles": [
+    {
+      "id": 1,
+      "date": "2026-10-31",
+      "answer": "jack-o-lantern",
+      "aliases": [
+        "jack o lantern",
+        "jackolantern",
+        "carved pumpkin",
+        "halloween pumpkin",
+        "pumpkin"
+      ],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0070"
+    },
+    {
+      "id": 2,
+      "date": "2026-11-01",
+      "answer": "black cat",
+      "aliases": [
+        "black kitten",
+        "cat",
+        "kitten",
+        "kitty"
+      ],
+      "category": "Animal",
+      "difficulty": 2,
+      "image": "p0071"
+    },
+    {
+      "id": 3,
+      "date": "2026-11-02",
+      "answer": "ghost",
+      "aliases": [
+        "spirit",
+        "phantom",
+        "spook",
+        "specter",
+        "spectre"
+      ],
+      "category": "Object",
+      "difficulty": 2,
+      "image": "p0072"
+    },
+    {
+      "id": 4,
+      "date": "2026-11-03",
+      "answer": "witch hat",
+      "aliases": [
+        "witches hat",
+        "witchs hat",
+        "witch s hat"
+      ],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0073"
+    },
+    {
+      "id": 5,
+      "date": "2026-11-04",
+      "answer": "cauldron",
+      "aliases": [
+        "witches cauldron",
+        "witchs cauldron",
+        "witch cauldron"
+      ],
+      "category": "Object",
+      "difficulty": 2,
+      "image": "p0074"
+    },
+    {
+      "id": 6,
+      "date": "2026-11-05",
+      "answer": "bat",
+      "aliases": [
+        "vampire bat"
+      ],
+      "category": "Animal",
+      "difficulty": 1,
+      "image": "p0075"
+    },
+    {
+      "id": 7,
+      "date": "2026-11-06",
+      "answer": "skull",
+      "aliases": [
+        "human skull"
+      ],
+      "category": "Nature",
+      "difficulty": 2,
+      "image": "p0076"
+    },
+    {
+      "id": 8,
+      "date": "2026-11-07",
+      "answer": "watering can",
+      "aliases": [],
+      "category": "Object",
+      "difficulty": 2,
+      "image": "p0039"
+    },
+    {
+      "id": 9,
+      "date": "2026-11-08",
+      "answer": "pretzel",
+      "aliases": [],
+      "category": "Food",
+      "difficulty": 2,
+      "image": "p0031"
+    },
+    {
+      "id": 10,
+      "date": "2026-11-09",
+      "answer": "rocket",
+      "aliases": [
+        "spaceship"
+      ],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0037"
+    },
+    {
+      "id": 11,
+      "date": "2026-11-10",
+      "answer": "eggplant",
+      "aliases": [
+        "aubergine"
+      ],
+      "category": "Food",
+      "difficulty": 1,
+      "image": "p0029"
+    },
+    {
+      "id": 12,
+      "date": "2026-11-11",
+      "answer": "mushroom",
+      "aliases": [
+        "toadstool",
+        "fungus"
+      ],
+      "category": "Nature",
+      "difficulty": 1,
+      "image": "p0052"
+    },
+    {
+      "id": 13,
+      "date": "2026-11-12",
+      "answer": "apple",
+      "aliases": [],
+      "category": "Food",
+      "difficulty": 1,
+      "image": "p0064"
+    },
+    {
+      "id": 14,
+      "date": "2026-11-13",
+      "answer": "acoustic guitar",
+      "aliases": [
+        "guitar"
+      ],
+      "category": "Object",
+      "difficulty": 2,
+      "image": "p0008"
+    },
+    {
+      "id": 15,
+      "date": "2026-11-14",
+      "answer": "penguin",
+      "aliases": [],
+      "category": "Animal",
+      "difficulty": 2,
+      "image": "p0013"
+    },
+    {
+      "id": 16,
+      "date": "2026-11-15",
+      "answer": "skyscraper",
+      "aliases": [
+        "tower block"
+      ],
+      "category": "Place",
+      "difficulty": 3,
+      "image": "p0107"
+    },
+    {
+      "id": 17,
+      "date": "2026-11-16",
+      "answer": "broccoli",
+      "aliases": [],
+      "category": "Food",
+      "difficulty": 1,
+      "image": "p0024"
+    },
+    {
+      "id": 18,
+      "date": "2026-11-17",
+      "answer": "star",
+      "aliases": [],
+      "category": "Nature",
+      "difficulty": 1,
+      "image": "p0117"
+    },
+    {
+      "id": 19,
+      "date": "2026-11-18",
+      "answer": "hourglass",
+      "aliases": [
+        "sand timer",
+        "egg timer"
+      ],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0067"
+    },
+    {
+      "id": 20,
+      "date": "2026-11-19",
+      "answer": "hedgehog",
+      "aliases": [],
+      "category": "Animal",
+      "difficulty": 2,
+      "image": "p0004"
+    },
+    {
+      "id": 21,
+      "date": "2026-11-20",
+      "answer": "sailboat",
+      "aliases": [
+        "sailing boat",
+        "yacht"
+      ],
+      "category": "Object",
+      "difficulty": 2,
+      "image": "p0009"
+    },
+    {
+      "id": 22,
+      "date": "2026-11-21",
+      "answer": "elephant",
+      "aliases": [],
+      "category": "Animal",
+      "difficulty": 3,
+      "image": "p0011"
+    },
+    {
+      "id": 23,
+      "date": "2026-11-22",
+      "answer": "planet",
+      "aliases": [
+        "ringed planet"
+      ],
+      "category": "Nature",
+      "difficulty": 2,
+      "image": "p0118"
+    },
+    {
+      "id": 24,
+      "date": "2026-11-23",
+      "answer": "ferris wheel",
+      "aliases": [
+        "big wheel"
+      ],
+      "category": "Place",
+      "difficulty": 1,
+      "image": "p0046"
+    },
+    {
+      "id": 25,
+      "date": "2026-11-24",
+      "answer": "maple leaf",
+      "aliases": [],
+      "category": "Nature",
+      "difficulty": 1,
+      "image": "p0059"
+    },
+    {
+      "id": 26,
+      "date": "2026-11-25",
+      "answer": "pizza",
+      "aliases": [
+        "pizza slice",
+        "slice of pizza"
+      ],
+      "category": "Food",
+      "difficulty": 1,
+      "image": "p0086"
+    },
+    {
+      "id": 27,
+      "date": "2026-11-26",
+      "answer": "pyramid",
+      "aliases": [],
+      "category": "Place",
+      "difficulty": 1,
+      "image": "p0041"
+    },
+    {
+      "id": 28,
+      "date": "2026-11-27",
+      "answer": "compass",
+      "aliases": [],
+      "category": "Object",
+      "difficulty": 2,
+      "image": "p0105"
+    },
+    {
+      "id": 29,
+      "date": "2026-11-28",
+      "answer": "snake",
+      "aliases": [
+        "serpent"
+      ],
+      "category": "Animal",
+      "difficulty": 2,
+      "image": "p0126"
+    },
+    {
+      "id": 30,
+      "date": "2026-11-29",
+      "answer": "fountain",
+      "aliases": [],
+      "category": "Place",
+      "difficulty": 3,
+      "image": "p0110"
+    },
+    {
+      "id": 31,
+      "date": "2026-11-30",
+      "answer": "hamburger",
+      "aliases": [
+        "burger",
+        "cheeseburger"
+      ],
+      "category": "Food",
+      "difficulty": 1,
+      "image": "p0027"
+    },
+    {
+      "id": 32,
+      "date": "2026-12-01",
+      "answer": "acorn",
+      "aliases": [],
+      "category": "Nature",
+      "difficulty": 1,
+      "image": "p0060"
+    },
+    {
+      "id": 33,
+      "date": "2026-12-02",
+      "answer": "toucan",
+      "aliases": [],
+      "category": "Animal",
+      "difficulty": 1,
+      "image": "p0062"
+    },
+    {
+      "id": 34,
+      "date": "2026-12-03",
+      "answer": "bird nest",
+      "aliases": [
+        "nest"
+      ],
+      "category": "Nature",
+      "difficulty": 1,
+      "image": "p0125"
+    },
+    {
+      "id": 35,
+      "date": "2026-12-04",
+      "answer": "teapot",
+      "aliases": [],
+      "category": "Object",
+      "difficulty": 2,
+      "image": "p0010"
+    },
+    {
+      "id": 36,
+      "date": "2026-12-05",
+      "answer": "hot dog",
+      "aliases": [
+        "hotdog"
+      ],
+      "category": "Food",
+      "difficulty": 2,
+      "image": "p0087"
+    },
+    {
+      "id": 37,
+      "date": "2026-12-06",
+      "answer": "crab",
+      "aliases": [],
+      "category": "Animal",
+      "difficulty": 2,
+      "image": "p0018"
+    },
+    {
+      "id": 38,
+      "date": "2026-12-07",
+      "answer": "lightning",
+      "aliases": [
+        "lightning bolt",
+        "thunderbolt"
+      ],
+      "category": "Nature",
+      "difficulty": 1,
+      "image": "p0119"
+    },
+    {
+      "id": 39,
+      "date": "2026-12-08",
+      "answer": "flamingo",
+      "aliases": [],
+      "category": "Animal",
+      "difficulty": 1,
+      "image": "p0014"
+    },
+    {
+      "id": 40,
+      "date": "2026-12-09",
+      "answer": "donut",
+      "aliases": [
+        "doughnut"
+      ],
+      "category": "Food",
+      "difficulty": 1,
+      "image": "p0026"
+    },
+    {
+      "id": 41,
+      "date": "2026-12-10",
+      "answer": "pig",
+      "aliases": [
+        "hog",
+        "piglet"
+      ],
+      "category": "Animal",
+      "difficulty": 1,
+      "image": "p0077"
+    },
+    {
+      "id": 42,
+      "date": "2026-12-11",
+      "answer": "corn",
+      "aliases": [
+        "corn on the cob",
+        "sweetcorn",
+        "maize"
+      ],
+      "category": "Food",
+      "difficulty": 2,
+      "image": "p0091"
+    },
+    {
+      "id": 43,
+      "date": "2026-12-12",
+      "answer": "wishing well",
+      "aliases": [
+        "well"
+      ],
+      "category": "Place",
+      "difficulty": 2,
+      "image": "p0048"
+    },
+    {
+      "id": 44,
+      "date": "2026-12-13",
+      "answer": "scissors",
+      "aliases": [],
+      "category": "Object",
+      "difficulty": 3,
+      "image": "p0038"
+    },
+    {
+      "id": 45,
+      "date": "2026-12-14",
+      "answer": "giraffe",
+      "aliases": [],
+      "category": "Animal",
+      "difficulty": 1,
+      "image": "p0012"
+    },
+    {
+      "id": 46,
+      "date": "2026-12-15",
+      "answer": "volcano",
+      "aliases": [],
+      "category": "Nature",
+      "difficulty": 1,
+      "image": "p0055"
+    },
+    {
+      "id": 47,
+      "date": "2026-12-16",
+      "answer": "seahorse",
+      "aliases": [
+        "sea horse"
+      ],
+      "category": "Animal",
+      "difficulty": 1,
+      "image": "p0085"
+    },
+    {
+      "id": 48,
+      "date": "2026-12-17",
+      "answer": "palm tree",
+      "aliases": [
+        "palm"
+      ],
+      "category": "Nature",
+      "difficulty": 1,
+      "image": "p0056"
+    },
+    {
+      "id": 49,
+      "date": "2026-12-18",
+      "answer": "whale",
+      "aliases": [],
+      "category": "Animal",
+      "difficulty": 2,
+      "image": "p0019"
+    },
+    {
+      "id": 50,
+      "date": "2026-12-19",
+      "answer": "park bench",
+      "aliases": [
+        "bench"
+      ],
+      "category": "Place",
+      "difficulty": 2,
+      "image": "p0113"
+    },
+    {
+      "id": 51,
+      "date": "2026-12-20",
+      "answer": "banana",
+      "aliases": [],
+      "category": "Food",
+      "difficulty": 2,
+      "image": "p0001"
+    },
+    {
+      "id": 52,
+      "date": "2026-12-21",
+      "answer": "gingerbread man",
+      "aliases": [
+        "gingerbread"
+      ],
+      "category": "Food",
+      "difficulty": 1,
+      "image": "p0127"
+    },
+    {
+      "id": 53,
+      "date": "2026-12-22",
+      "answer": "mitten",
+      "aliases": [
+        "mittens"
+      ],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0130"
+    },
+    {
+      "id": 54,
+      "date": "2026-12-23",
+      "answer": "candy cane",
+      "aliases": [],
+      "category": "Food",
+      "difficulty": 1,
+      "image": "p0094"
+    },
+    {
+      "id": 55,
+      "date": "2026-12-24",
+      "answer": "reindeer",
+      "aliases": [
+        "caribou",
+        "deer"
+      ],
+      "category": "Animal",
+      "difficulty": 1,
+      "image": "p0129"
+    },
+    {
+      "id": 56,
+      "date": "2026-12-25",
+      "answer": "christmas tree",
+      "aliases": [
+        "xmas tree",
+        "pine tree"
+      ],
+      "category": "Nature",
+      "difficulty": 1,
+      "image": "p0128"
+    },
+    {
+      "id": 57,
+      "date": "2026-12-26",
+      "answer": "snow globe",
+      "aliases": [
+        "snowglobe"
+      ],
+      "category": "Object",
+      "difficulty": 3,
+      "image": "p0131"
+    },
+    {
+      "id": 58,
+      "date": "2026-12-27",
+      "answer": "snowman",
+      "aliases": [],
+      "category": "Object",
+      "difficulty": 2,
+      "image": "p0096"
+    },
+    {
+      "id": 59,
+      "date": "2026-12-28",
+      "answer": "octopus",
+      "aliases": [],
+      "category": "Animal",
+      "difficulty": 1,
+      "image": "p0016"
+    },
+    {
+      "id": 60,
+      "date": "2026-12-29",
+      "answer": "party hat",
+      "aliases": [
+        "birthday hat"
+      ],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0134"
+    },
+    {
+      "id": 61,
+      "date": "2026-12-30",
+      "answer": "pocket watch",
+      "aliases": [
+        "watch"
+      ],
+      "category": "Object",
+      "difficulty": 2,
+      "image": "p0136"
+    },
+    {
+      "id": 62,
+      "date": "2026-12-31",
+      "answer": "fireworks",
+      "aliases": [
+        "firework"
+      ],
+      "category": "Object",
+      "difficulty": 3,
+      "image": "p0132"
+    },
+    {
+      "id": 63,
+      "date": "2027-01-01",
+      "answer": "calendar",
+      "aliases": [],
+      "category": "Object",
+      "difficulty": 2,
+      "image": "p0137"
+    },
+    {
+      "id": 64,
+      "date": "2027-01-02",
+      "answer": "disco ball",
+      "aliases": [
+        "mirror ball",
+        "glitter ball"
+      ],
+      "category": "Object",
+      "difficulty": 3,
+      "image": "p0135"
+    },
+    {
+      "id": 65,
+      "date": "2027-01-03",
+      "answer": "party popper",
+      "aliases": [
+        "popper",
+        "confetti popper"
+      ],
+      "category": "Object",
+      "difficulty": 3,
+      "image": "p0133"
+    },
+    {
+      "id": 66,
+      "date": "2027-01-04",
+      "answer": "balloon bunch",
+      "aliases": [
+        "balloons"
+      ],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0138"
+    },
+    {
+      "id": 67,
+      "date": "2027-01-05",
+      "answer": "snail",
+      "aliases": [],
+      "category": "Animal",
+      "difficulty": 1,
+      "image": "p0063"
+    },
+    {
+      "id": 68,
+      "date": "2027-01-06",
+      "answer": "key",
+      "aliases": [],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0032"
+    },
+    {
+      "id": 69,
+      "date": "2027-01-07",
+      "answer": "butterfly",
+      "aliases": [
+        "moth"
+      ],
+      "category": "Animal",
+      "difficulty": 1,
+      "image": "p0082"
+    },
+    {
+      "id": 70,
+      "date": "2027-01-08",
+      "answer": "cable car",
+      "aliases": [
+        "gondola"
+      ],
+      "category": "Place",
+      "difficulty": 2,
+      "image": "p0114"
+    },
+    {
+      "id": 71,
+      "date": "2027-01-09",
+      "answer": "armadillo",
+      "aliases": [],
+      "category": "Animal",
+      "difficulty": 2,
+      "image": "p0020"
+    },
+    {
+      "id": 72,
+      "date": "2027-01-10",
+      "answer": "clock tower",
+      "aliases": [],
+      "category": "Place",
+      "difficulty": 3,
+      "image": "p0108"
+    },
+    {
+      "id": 73,
+      "date": "2027-01-11",
+      "answer": "alarm clock",
+      "aliases": [
+        "clock"
+      ],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0097"
+    },
+    {
+      "id": 74,
+      "date": "2027-01-12",
+      "answer": "crystal",
+      "aliases": [
+        "gem",
+        "gemstone"
+      ],
+      "category": "Nature",
+      "difficulty": 1,
+      "image": "p0122"
+    },
+    {
+      "id": 75,
+      "date": "2027-01-13",
+      "answer": "trophy",
+      "aliases": [],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0101"
+    },
+    {
+      "id": 76,
+      "date": "2027-01-14",
+      "answer": "kiwi",
+      "aliases": [
+        "kiwi fruit",
+        "kiwifruit"
+      ],
+      "category": "Food",
+      "difficulty": 1,
+      "image": "p0092"
+    },
+    {
+      "id": 77,
+      "date": "2027-01-15",
+      "answer": "barn",
+      "aliases": [],
+      "category": "Place",
+      "difficulty": 2,
+      "image": "p0045"
+    },
+    {
+      "id": 78,
+      "date": "2027-01-16",
+      "answer": "microscope",
+      "aliases": [],
+      "category": "Object",
+      "difficulty": 2,
+      "image": "p0040"
+    },
+    {
+      "id": 79,
+      "date": "2027-01-17",
+      "answer": "gazebo",
+      "aliases": [
+        "bandstand"
+      ],
+      "category": "Place",
+      "difficulty": 2,
+      "image": "p0115"
+    },
+    {
+      "id": 80,
+      "date": "2027-01-18",
+      "answer": "fox",
+      "aliases": [],
+      "category": "Animal",
+      "difficulty": 1,
+      "image": "p0079"
+    },
+    {
+      "id": 81,
+      "date": "2027-01-19",
+      "answer": "bridge",
+      "aliases": [],
+      "category": "Place",
+      "difficulty": 1,
+      "image": "p0109"
+    },
+    {
+      "id": 82,
+      "date": "2027-01-20",
+      "answer": "rainbow",
+      "aliases": [],
+      "category": "Nature",
+      "difficulty": 1,
+      "image": "p0054"
+    },
+    {
+      "id": 83,
+      "date": "2027-01-21",
+      "answer": "cheese",
+      "aliases": [],
+      "category": "Food",
+      "difficulty": 1,
+      "image": "p0089"
+    },
+    {
+      "id": 84,
+      "date": "2027-01-22",
+      "answer": "umbrella",
+      "aliases": [],
+      "category": "Object",
+      "difficulty": 2,
+      "image": "p0005"
+    },
+    {
+      "id": 85,
+      "date": "2027-01-23",
+      "answer": "owl",
+      "aliases": [],
+      "category": "Animal",
+      "difficulty": 2,
+      "image": "p0080"
+    },
+    {
+      "id": 86,
+      "date": "2027-01-24",
+      "answer": "greenhouse",
+      "aliases": [
+        "glasshouse"
+      ],
+      "category": "Place",
+      "difficulty": 3,
+      "image": "p0111"
+    },
+    {
+      "id": 87,
+      "date": "2027-01-25",
+      "answer": "campfire",
+      "aliases": [
+        "bonfire"
+      ],
+      "category": "Nature",
+      "difficulty": 1,
+      "image": "p0061"
+    },
+    {
+      "id": 88,
+      "date": "2027-01-26",
+      "answer": "grape",
+      "aliases": [
+        "grapes",
+        "bunch of grapes"
+      ],
+      "category": "Food",
+      "difficulty": 1,
+      "image": "p0093"
+    },
+    {
+      "id": 89,
+      "date": "2027-01-27",
+      "answer": "soccer ball",
+      "aliases": [
+        "football"
+      ],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0099"
+    },
+    {
+      "id": 90,
+      "date": "2027-01-28",
+      "answer": "snowflake",
+      "aliases": [],
+      "category": "Nature",
+      "difficulty": 1,
+      "image": "p0057"
+    },
+    {
+      "id": 91,
+      "date": "2027-01-29",
+      "answer": "treehouse",
+      "aliases": [
+        "tree house"
+      ],
+      "category": "Place",
+      "difficulty": 2,
+      "image": "p0049"
+    },
+    {
+      "id": 92,
+      "date": "2027-01-30",
+      "answer": "sunflower",
+      "aliases": [],
+      "category": "Nature",
+      "difficulty": 2,
+      "image": "p0053"
+    },
+    {
+      "id": 93,
+      "date": "2027-01-31",
+      "answer": "pagoda",
+      "aliases": [],
+      "category": "Place",
+      "difficulty": 2,
+      "image": "p0047"
+    },
+    {
+      "id": 94,
+      "date": "2027-02-01",
+      "answer": "gift",
+      "aliases": [
+        "present",
+        "gift box"
+      ],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0104"
+    },
+    {
+      "id": 95,
+      "date": "2027-02-02",
+      "answer": "tornado",
+      "aliases": [
+        "twister"
+      ],
+      "category": "Nature",
+      "difficulty": 1,
+      "image": "p0120"
+    },
+    {
+      "id": 96,
+      "date": "2027-02-03",
+      "answer": "avocado",
+      "aliases": [],
+      "category": "Food",
+      "difficulty": 1,
+      "image": "p0030"
+    },
+    {
+      "id": 97,
+      "date": "2027-02-04",
+      "answer": "magnet",
+      "aliases": [
+        "horseshoe magnet"
+      ],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0103"
+    },
+    {
+      "id": 98,
+      "date": "2027-02-05",
+      "answer": "log cabin",
+      "aliases": [
+        "cabin"
+      ],
+      "category": "Place",
+      "difficulty": 2,
+      "image": "p0106"
+    },
+    {
+      "id": 99,
+      "date": "2027-02-06",
+      "answer": "seashell",
+      "aliases": [
+        "shell",
+        "conch"
+      ],
+      "category": "Nature",
+      "difficulty": 2,
+      "image": "p0069"
+    },
+    {
+      "id": 100,
+      "date": "2027-02-07",
+      "answer": "panda",
+      "aliases": [
+        "giant panda",
+        "panda bear"
+      ],
+      "category": "Animal",
+      "difficulty": 3,
+      "image": "p0078"
+    },
+    {
+      "id": 101,
+      "date": "2027-02-08",
+      "answer": "raindrop",
+      "aliases": [
+        "water drop",
+        "droplet"
+      ],
+      "category": "Nature",
+      "difficulty": 1,
+      "image": "p0121"
+    },
+    {
+      "id": 102,
+      "date": "2027-02-09",
+      "answer": "cupcake",
+      "aliases": [
+        "fairy cake"
+      ],
+      "category": "Food",
+      "difficulty": 1,
+      "image": "p0090"
+    },
+    {
+      "id": 103,
+      "date": "2027-02-10",
+      "answer": "traffic light",
+      "aliases": [
+        "traffic lights",
+        "stoplight"
+      ],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0102"
+    },
+    {
+      "id": 104,
+      "date": "2027-02-11",
+      "answer": "watermelon",
+      "aliases": [
+        "melon"
+      ],
+      "category": "Food",
+      "difficulty": 1,
+      "image": "p0022"
+    },
+    {
+      "id": 105,
+      "date": "2027-02-12",
+      "answer": "cactus",
+      "aliases": [],
+      "category": "Nature",
+      "difficulty": 2,
+      "image": "p0007"
+    },
+    {
+      "id": 106,
+      "date": "2027-02-13",
+      "answer": "castle",
+      "aliases": [],
+      "category": "Place",
+      "difficulty": 2,
+      "image": "p0042"
+    },
+    {
+      "id": 107,
+      "date": "2027-02-14",
+      "answer": "ladybug",
+      "aliases": [
+        "ladybird"
+      ],
+      "category": "Animal",
+      "difficulty": 2,
+      "image": "p0017"
+    },
+    {
+      "id": 108,
+      "date": "2027-02-15",
+      "answer": "igloo",
+      "aliases": [],
+      "category": "Place",
+      "difficulty": 1,
+      "image": "p0043"
+    },
+    {
+      "id": 109,
+      "date": "2027-02-16",
+      "answer": "sun",
+      "aliases": [],
+      "category": "Nature",
+      "difficulty": 1,
+      "image": "p0116"
+    },
+    {
+      "id": 110,
+      "date": "2027-02-17",
+      "answer": "starfish",
+      "aliases": [
+        "sea star"
+      ],
+      "category": "Animal",
+      "difficulty": 1,
+      "image": "p0084"
+    },
+    {
+      "id": 111,
+      "date": "2027-02-18",
+      "answer": "carrot",
+      "aliases": [],
+      "category": "Food",
+      "difficulty": 1,
+      "image": "p0023"
+    },
+    {
+      "id": 112,
+      "date": "2027-02-19",
+      "answer": "windmill",
+      "aliases": [],
+      "category": "Place",
+      "difficulty": 2,
+      "image": "p0044"
+    },
+    {
+      "id": 113,
+      "date": "2027-02-20",
+      "answer": "cherry",
+      "aliases": [
+        "cherries"
+      ],
+      "category": "Food",
+      "difficulty": 2,
+      "image": "p0025"
+    },
+    {
+      "id": 114,
+      "date": "2027-02-21",
+      "answer": "bee",
+      "aliases": [
+        "honeybee",
+        "bumblebee"
+      ],
+      "category": "Animal",
+      "difficulty": 3,
+      "image": "p0081"
+    },
+    {
+      "id": 115,
+      "date": "2027-02-22",
+      "answer": "ice cream",
+      "aliases": [
+        "ice cream cone"
+      ],
+      "category": "Food",
+      "difficulty": 1,
+      "image": "p0028"
+    },
+    {
+      "id": 116,
+      "date": "2027-02-23",
+      "answer": "shark",
+      "aliases": [],
+      "category": "Animal",
+      "difficulty": 1,
+      "image": "p0083"
+    },
+    {
+      "id": 117,
+      "date": "2027-02-24",
+      "answer": "fried egg",
+      "aliases": [],
+      "category": "Food",
+      "difficulty": 1,
+      "image": "p0088"
+    },
+    {
+      "id": 118,
+      "date": "2027-02-25",
+      "answer": "light bulb",
+      "aliases": [
+        "lightbulb",
+        "bulb"
+      ],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0034"
+    },
+    {
+      "id": 119,
+      "date": "2027-02-26",
+      "answer": "lighthouse",
+      "aliases": [],
+      "category": "Place",
+      "difficulty": 2,
+      "image": "p0003"
+    },
+    {
+      "id": 120,
+      "date": "2027-02-27",
+      "answer": "trumpet",
+      "aliases": [],
+      "category": "Object",
+      "difficulty": 2,
+      "image": "p0066"
+    },
+    {
+      "id": 121,
+      "date": "2027-02-28",
+      "answer": "birdhouse",
+      "aliases": [
+        "nest box"
+      ],
+      "category": "Place",
+      "difficulty": 2,
+      "image": "p0050"
+    },
+    {
+      "id": 122,
+      "date": "2027-03-01",
+      "answer": "rubber duck",
+      "aliases": [
+        "rubber duckie"
+      ],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0065"
+    },
+    {
+      "id": 123,
+      "date": "2027-03-02",
+      "answer": "cloud",
+      "aliases": [],
+      "category": "Nature",
+      "difficulty": 1,
+      "image": "p0124"
+    },
+    {
+      "id": 124,
+      "date": "2027-03-03",
+      "answer": "anchor",
+      "aliases": [],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0033"
+    },
+    {
+      "id": 125,
+      "date": "2027-03-04",
+      "answer": "frog",
+      "aliases": [
+        "toad"
+      ],
+      "category": "Animal",
+      "difficulty": 1,
+      "image": "p0015"
+    },
+    {
+      "id": 126,
+      "date": "2027-03-05",
+      "answer": "feather",
+      "aliases": [],
+      "category": "Nature",
+      "difficulty": 2,
+      "image": "p0123"
+    },
+    {
+      "id": 127,
+      "date": "2027-03-06",
+      "answer": "artichoke",
+      "aliases": [],
+      "category": "Food",
+      "difficulty": 3,
+      "image": "p0095"
+    },
+    {
+      "id": 128,
+      "date": "2027-03-07",
+      "answer": "bicycle",
+      "aliases": [
+        "bike",
+        "cycle"
+      ],
+      "category": "Object",
+      "difficulty": 2,
+      "image": "p0002"
+    },
+    {
+      "id": 129,
+      "date": "2027-03-08",
+      "answer": "phone booth",
+      "aliases": [
+        "telephone box",
+        "phone box"
+      ],
+      "category": "Place",
+      "difficulty": 1,
+      "image": "p0068"
+    },
+    {
+      "id": 130,
+      "date": "2027-03-09",
+      "answer": "strawberry",
+      "aliases": [],
+      "category": "Food",
+      "difficulty": 1,
+      "image": "p0021"
+    },
+    {
+      "id": 131,
+      "date": "2027-03-10",
+      "answer": "moon",
+      "aliases": [
+        "crescent moon"
+      ],
+      "category": "Nature",
+      "difficulty": 1,
+      "image": "p0058"
+    },
+    {
+      "id": 132,
+      "date": "2027-03-11",
+      "answer": "kite",
+      "aliases": [],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0098"
+    },
+    {
+      "id": 133,
+      "date": "2027-03-12",
+      "answer": "pineapple",
+      "aliases": [],
+      "category": "Food",
+      "difficulty": 2,
+      "image": "p0006"
+    },
+    {
+      "id": 134,
+      "date": "2027-03-13",
+      "answer": "crown",
+      "aliases": [],
+      "category": "Object",
+      "difficulty": 2,
+      "image": "p0036"
+    },
+    {
+      "id": 135,
+      "date": "2027-03-14",
+      "answer": "water tower",
+      "aliases": [],
+      "category": "Place",
+      "difficulty": 2,
+      "image": "p0112"
+    },
+    {
+      "id": 136,
+      "date": "2027-03-15",
+      "answer": "teddy bear",
+      "aliases": [
+        "teddy"
+      ],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0100"
+    },
+    {
+      "id": 137,
+      "date": "2027-03-16",
+      "answer": "circus tent",
+      "aliases": [
+        "big top"
+      ],
+      "category": "Place",
+      "difficulty": 1,
+      "image": "p0051"
+    },
+    {
+      "id": 138,
+      "date": "2027-03-17",
+      "answer": "hammer",
+      "aliases": [],
+      "category": "Object",
+      "difficulty": 1,
+      "image": "p0035"
+    }
+  ]
+}
