@@ -66,6 +66,18 @@ a:hover { text-decoration-thickness: 2px; }
 .badge:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 .badge svg { width: 180px; height: auto; }
 
+/* Link strip (shown only for ?d= / ?event= links) */
+.deeplink {
+  margin: 16px 0 0;
+  padding: 10px 14px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  font-size: 0.95rem;
+  text-align: center;
+}
+.deeplink a { font-weight: 600; }
+
 /* Features */
 .features { list-style: none; padding: 0; margin: 40px 0 0; display: grid; gap: 12px; }
 .features li {

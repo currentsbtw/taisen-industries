@@ -1,0 +1,34 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["ZAN3927UQD.com.taisenindustries.pixelate"],
+        "components": [
+          {
+            "/": "/pixelate/privacy.html",
+            "exclude": true,
+            "comment": "Privacy policy opens in Safari from the app; never route it back into the app."
+          },
+          {
+            "/": "/pixelate/support.html",
+            "exclude": true,
+            "comment": "Support page opens in Safari from the app; never route it back into the app."
+          },
+          {
+            "/": "/pixelate/assets/*",
+            "exclude": true,
+            "comment": "Static assets are never universal links."
+          },
+          {
+            "/": "/pixelate",
+            "comment": "Landing page without trailing slash, any query (?d=<n>&s=<step>, ?event=<name>)."
+          },
+          {
+            "/": "/pixelate/",
+            "comment": "Landing page with trailing slash, any query (?d=<n>&s=<step>, ?event=<name>)."
+          }
+        ]
+      }
+    ]
+  }
+}

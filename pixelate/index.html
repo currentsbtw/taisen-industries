@@ -27,6 +27,7 @@
 <body>
   <div class="wrap">
     <main>
+      <p class="deeplink" id="deeplink" hidden></p>
       <section class="hero">
         <h1>Pixelate</h1>
         <p class="lede">Guess the picture, one pixel at a time</p>
@@ -60,6 +61,37 @@
   <script>
   (function () {
     "use strict";
+
+    // Link strip: shared links (?d=<n>[&s=<step>], ?event=<name>) land here when the app is not installed.
+    // Shows "Open in Pixelate" (custom scheme) and the App Store badge's target. Nothing happens without a query.
+    // s (the friend's step) is accepted and ignored, as in the app's 1.0.1 parser.
+    var EVENTS = { halloween: "Halloween Week" };
+    var params = new URLSearchParams(window.location.search);
+    var day = params.get("d");
+    var eventName = (params.get("event") || "").toLowerCase();
+    var label = null, appUrl = null;
+    if (day !== null && /^[0-9]{1,5}$/.test(day)) {
+      label = "Puzzle day " + Number(day);
+      appUrl = "pixelate://day/" + Number(day);
+    } else if (Object.prototype.hasOwnProperty.call(EVENTS, eventName)) {
+      label = EVENTS[eventName];
+      appUrl = "pixelate://event/" + eventName;
+    }
+    if (label) {
+      var strip = document.getElementById("deeplink");
+      var storeUrl = document.querySelector(".badge").getAttribute("href");
+      var open = document.createElement("a");
+      open.href = appUrl;
+      open.textContent = "Open in Pixelate";
+      var store = document.createElement("a");
+      store.href = storeUrl;
+      store.textContent = "Get it on the App Store";
+      strip.appendChild(document.createTextNode(label + " — "));
+      strip.appendChild(open);
+      strip.appendChild(document.createTextNode(" · "));
+      strip.appendChild(store);
+      strip.hidden = false;
+    }
 
     // Puzzle number: days since the epoch (2026-10-31) at local midnight; puzzle #1 is the epoch day.
     var EPOCH = new Date(2026, 9, 31); // local midnight; month is 0-based
