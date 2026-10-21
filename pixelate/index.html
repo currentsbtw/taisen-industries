@@ -71,7 +71,7 @@
     var eventName = (params.get("event") || "").toLowerCase();
     var label = null, appUrl = null;
     if (day !== null && /^[0-9]{1,5}$/.test(day)) {
-      label = "Puzzle day " + Number(day);
+      label = "Puzzle #" + (Number(day) + 1);   // the page counts puzzles from 1; the link's d is 0-based (days since launch)
       appUrl = "pixelate://day/" + Number(day);
     } else if (Object.prototype.hasOwnProperty.call(EVENTS, eventName)) {
       label = EVENTS[eventName];
