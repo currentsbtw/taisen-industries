@@ -227,25 +227,34 @@
     return null;
   }
 
+  /** Visible notice when a link to a day that is not out yet falls back to today's puzzle. */
+  var NOT_YET_NOTICE = "That one isn't out yet. Here is today's puzzle.";
+
+  function validPuzzle(puzzle) {
+    return !!puzzle && typeof puzzle.answer === "string" && typeof puzzle.image === "string" &&
+      /^[A-Za-z0-9_-]+$/.test(puzzle.image);
+  }
+
   /**
-   * What to show. dParam: the raw ?d value or null. Returns {kind, day, puzzle}, kind one of
-   * "play" | "prelaunch" | "notyet" | "nopuzzle".
+   * What to show. dParam: the raw ?d value or null. Returns {kind, day, puzzle, notice}, kind one of
+   * "play" | "prelaunch" | "nopuzzle". Days later than today are never served: before launch only the
+   * pre-launch state shows, whatever the link says; after launch a future day falls back to today's
+   * puzzle with a notice. dev (a hand-set localStorage flag, never a URL parameter) lifts that for testing.
    */
-  function resolveDay(dParam, preview, today, puzzles) {
-    var day;
+  function resolveDay(dParam, today, puzzles, dev) {
+    var day, notice = null;
+    if (today < 0 && !dev) return { kind: "prelaunch", day: today };
     if (dParam === null || dParam === undefined) {
-      if (today < 0) return { kind: "prelaunch", day: today };
       day = today;
     } else {
       if (!/^-?[0-9]{1,9}$/.test(dParam)) return { kind: "nopuzzle", day: null };
       day = Number(dParam);
       if (day < 0) return { kind: "nopuzzle", day: day };
+      if (day > today && !dev) { day = today; notice = NOT_YET_NOTICE; }
     }
     var puzzle = puzzleForDay(puzzles, day);
-    if (!puzzle || typeof puzzle.answer !== "string" || typeof puzzle.image !== "string" ||
-        !/^[A-Za-z0-9_-]+$/.test(puzzle.image)) return { kind: "nopuzzle", day: day };
-    if (today >= 0 && day > today && !preview) return { kind: "notyet", day: day, puzzle: puzzle };
-    return { kind: "play", day: day, puzzle: puzzle };
+    if (!validPuzzle(puzzle)) return { kind: "nopuzzle", day: day };
+    return { kind: "play", day: day, puzzle: puzzle, notice: notice };
   }
 
   /** "5h 12m" / "12m" until the next local midnight. */
@@ -262,7 +271,7 @@
     isMatch: isMatch, vocabularyTerms: vocabularyTerms, buildBlocklist: buildBlocklist,
     hint2Text: hint2Text, slotsFor: slotsFor, shareText: shareText, createSession: createSession,
     dayIndexFor: dayIndexFor, dateForDay: dateForDay, isoDate: isoDate, puzzleForDay: puzzleForDay,
-    resolveDay: resolveDay, countdownText: countdownText
+    resolveDay: resolveDay, countdownText: countdownText, NOT_YET_NOTICE: NOT_YET_NOTICE
   };
 
   if (typeof module !== "undefined" && module.exports) module.exports = api;
@@ -315,8 +324,11 @@
 
   var params = new URLSearchParams(window.location.search);
   var dParam = params.get("d");
-  var preview = params.get("preview") === "1";
   var today = dayIndexFor(new Date());
+  // Dev switch for testing scheduled days before they are out: set by hand in the console with
+  // localStorage.setItem("pixelate.play.dev", "1"). Never a URL parameter, so links cannot open future days.
+  var dev = false;
+  try { dev = window.localStorage.getItem("pixelate.play.dev") === "1"; } catch (e) { dev = false; }
 
   Promise.all([
     fetchJson("../puzzles.json"),
@@ -325,19 +337,12 @@
     var data = res[0], vocab = res[1];
     var puzzles = data && Array.isArray(data.puzzles) ? data.puzzles : [];
     var todayPlayable = today >= 0 && !!puzzleForDay(puzzles, today);
-    var r = resolveDay(dParam, preview, today, puzzles);
+    var r = resolveDay(dParam, today, puzzles, dev);
 
     if (r.kind === "prelaunch") {
       $("title").textContent = "Launching Oct 31";
       showMessage("Puzzle #1 arrives Oct 31",
         "Get the app to play it the day it lands. Once puzzles are out, links friends share with you open them here, past days included.", false);
-      showFunnel(null);
-      return;
-    }
-    if (r.kind === "notyet") {
-      $("title").textContent = "Puzzle #" + r.puzzle.id;
-      showMessage("That puzzle isn't out yet",
-        "Puzzle #" + r.puzzle.id + " arrives " + shortDate(dateForDay(r.day)) + ".", todayPlayable);
       showFunnel(null);
       return;
     }
@@ -348,6 +353,8 @@
       showFunnel(null);
       return;
     }
+    var notice = $("notice");
+    if (notice) { notice.textContent = r.notice || ""; notice.hidden = !r.notice; }
     startGame(r.day, r.puzzle, vocab);
   }).catch(function () {
     showMessage("Couldn't load the puzzle", "Check your connection and reload the page.", false);

@@ -145,3 +145,6 @@
 .funnel .badge { margin: 4px 0 8px; }
 .open-app { font-size: 0.95rem; }
 .open-app a, .message a { font-weight: 600; }
+
+/* Notice when a link to a day that is not out yet falls back to today's puzzle */
+.notice { text-align: center; font-size: 0.95rem; margin: 0 0 12px; }
