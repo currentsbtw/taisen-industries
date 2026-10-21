@@ -1,0 +1,3179 @@
+{
+  "entries": [
+    {
+      "word": "cat",
+      "aliases": [
+        "kitten",
+        "kitty"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "dog",
+      "aliases": [
+        "puppy",
+        "hound"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "horse",
+      "aliases": [
+        "pony"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "cow",
+      "aliases": [
+        "cattle"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "pig",
+      "aliases": [
+        "hog",
+        "piglet"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "sheep",
+      "aliases": [
+        "lamb"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "goat",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "chicken",
+      "aliases": [
+        "hen"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "rooster",
+      "aliases": [
+        "cockerel"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "duck",
+      "aliases": [
+        "duckling"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "goose",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "turkey",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "rabbit",
+      "aliases": [
+        "bunny",
+        "hare"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "mouse",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "hamster",
+      "aliases": [
+        "guinea pig"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "squirrel",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "hedgehog",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "fox",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "wolf",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "bear",
+      "aliases": [
+        "brown bear",
+        "grizzly bear"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "polar bear",
+      "aliases": [
+        "white bear"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "panda",
+      "aliases": [
+        "giant panda",
+        "panda bear"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "koala",
+      "aliases": [
+        "koala bear"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "kangaroo",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "monkey",
+      "aliases": [
+        "chimp",
+        "chimpanzee"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "gorilla",
+      "aliases": [
+        "ape"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "elephant",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "giraffe",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "zebra",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "lion",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "tiger",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "leopard",
+      "aliases": [
+        "jaguar"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "cheetah",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "rhinoceros",
+      "aliases": [
+        "rhino"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "hippopotamus",
+      "aliases": [
+        "hippo"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "camel",
+      "aliases": [
+        "dromedary"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "deer",
+      "aliases": [
+        "stag",
+        "doe"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "moose",
+      "aliases": [
+        "elk"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "reindeer",
+      "aliases": [
+        "caribou"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "bison",
+      "aliases": [
+        "buffalo"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "raccoon",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "skunk",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "beaver",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "otter",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "seal",
+      "aliases": [
+        "sea lion"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "walrus",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "penguin",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "owl",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "eagle",
+      "aliases": [
+        "hawk",
+        "falcon"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "parrot",
+      "aliases": [
+        "macaw"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "flamingo",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "peacock",
+      "aliases": [
+        "peafowl"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "swan",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "pigeon",
+      "aliases": [
+        "dove"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "crow",
+      "aliases": [
+        "raven"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "hummingbird",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "toucan",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "pelican",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "ostrich",
+      "aliases": [
+        "emu"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "bat",
+      "aliases": [
+        "vampire bat"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "frog",
+      "aliases": [
+        "toad"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "turtle",
+      "aliases": [
+        "tortoise"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "snake",
+      "aliases": [
+        "serpent"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "lizard",
+      "aliases": [
+        "gecko"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "crocodile",
+      "aliases": [
+        "alligator"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "chameleon",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "goldfish",
+      "aliases": [
+        "fish"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "shark",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "whale",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "dolphin",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "orca",
+      "aliases": [
+        "killer whale"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "octopus",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "jellyfish",
+      "aliases": [
+        "jelly"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "crab",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "lobster",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "shrimp",
+      "aliases": [
+        "prawn"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "starfish",
+      "aliases": [
+        "sea star"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "seahorse",
+      "aliases": [
+        "sea horse"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "snail",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "butterfly",
+      "aliases": [
+        "moth"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "bee",
+      "aliases": [
+        "honeybee",
+        "bumblebee"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "ladybug",
+      "aliases": [
+        "ladybird"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "ant",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "spider",
+      "aliases": [
+        "tarantula"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "scorpion",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "dragonfly",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "caterpillar",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "beetle",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "grasshopper",
+      "aliases": [
+        "cricket",
+        "locust"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "worm",
+      "aliases": [
+        "earthworm"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "sloth",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "armadillo",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "porcupine",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "llama",
+      "aliases": [
+        "alpaca"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "donkey",
+      "aliases": [
+        "mule"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "platypus",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "meerkat",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "pufferfish",
+      "aliases": [
+        "blowfish"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "clownfish",
+      "aliases": [],
+      "category": "Animal"
+    },
+    {
+      "word": "stingray",
+      "aliases": [
+        "manta ray"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "apple",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "banana",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "orange",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "lemon",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "lime",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "strawberry",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "cherry",
+      "aliases": [
+        "cherries"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "grape",
+      "aliases": [
+        "grapes",
+        "bunch of grapes"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "pineapple",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "watermelon",
+      "aliases": [
+        "melon"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "peach",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "pear",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "plum",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "mango",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "coconut",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "kiwi",
+      "aliases": [
+        "kiwi fruit",
+        "kiwifruit"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "avocado",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "pomegranate",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "blueberry",
+      "aliases": [
+        "blueberries"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "raspberry",
+      "aliases": [
+        "raspberries"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "carrot",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "broccoli",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "corn",
+      "aliases": [
+        "corn on the cob",
+        "sweetcorn",
+        "maize"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "tomato",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "potato",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "onion",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "garlic",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "eggplant",
+      "aliases": [
+        "aubergine"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "bell pepper",
+      "aliases": [
+        "pepper",
+        "capsicum"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "chili pepper",
+      "aliases": [
+        "chili",
+        "chilli",
+        "hot pepper"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "cucumber",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "pumpkin",
+      "aliases": [
+        "squash"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "cabbage",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "lettuce",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "pea pod",
+      "aliases": [
+        "peas",
+        "pea"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "radish",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "asparagus",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "bread",
+      "aliases": [
+        "loaf",
+        "loaf of bread"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "baguette",
+      "aliases": [
+        "french bread"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "croissant",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "pretzel",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "bagel",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "donut",
+      "aliases": [
+        "doughnut"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "cupcake",
+      "aliases": [
+        "fairy cake"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "cake",
+      "aliases": [
+        "birthday cake"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "cookie",
+      "aliases": [
+        "biscuit"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "pie",
+      "aliases": [
+        "tart"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "pizza",
+      "aliases": [
+        "pizza slice",
+        "slice of pizza"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "hamburger",
+      "aliases": [
+        "burger",
+        "cheeseburger"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "hot dog",
+      "aliases": [
+        "hotdog"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "sandwich",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "taco",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "burrito",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "sushi",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "french fries",
+      "aliases": [
+        "fries",
+        "chips"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "popcorn",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "ice cream",
+      "aliases": [
+        "ice cream cone"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "popsicle",
+      "aliases": [
+        "ice lolly",
+        "ice pop"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "lollipop",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "candy cane",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "chocolate bar",
+      "aliases": [
+        "chocolate"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "egg",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "fried egg",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "cheese",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "bacon",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "sausage",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "drumstick",
+      "aliases": [
+        "chicken leg"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "steak",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "noodles",
+      "aliases": [
+        "ramen"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "pancake",
+      "aliases": [
+        "pancakes"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "waffle",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "honey",
+      "aliases": [
+        "honey jar",
+        "honeypot"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "milk",
+      "aliases": [
+        "glass of milk",
+        "milk carton"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "coffee",
+      "aliases": [
+        "cup of coffee"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "soda can",
+      "aliases": [
+        "can of soda",
+        "pop can"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "peanut",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "olive",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "dumpling",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "muffin",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "gingerbread man",
+      "aliases": [
+        "gingerbread"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "cotton candy",
+      "aliases": [
+        "candyfloss",
+        "candy floss"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "candy corn",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "marshmallow",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "churro",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "kebab",
+      "aliases": [
+        "skewer"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "sundae",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "jelly bean",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "peanut butter jar",
+      "aliases": [
+        "peanut butter"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "pickle",
+      "aliases": [
+        "gherkin"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "milkshake",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "hot chocolate",
+      "aliases": [
+        "cocoa"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "spring roll",
+      "aliases": [
+        "egg roll"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "corn dog",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "fortune cookie",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "macaron",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "pudding",
+      "aliases": [
+        "custard"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "sweet potato",
+      "aliases": [
+        "yam"
+      ],
+      "category": "Food"
+    },
+    {
+      "word": "ginger",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "artichoke",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "celery",
+      "aliases": [],
+      "category": "Food"
+    },
+    {
+      "word": "umbrella",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "bicycle",
+      "aliases": [
+        "bike",
+        "cycle"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "teapot",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "acoustic guitar",
+      "aliases": [
+        "guitar"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "piano",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "violin",
+      "aliases": [
+        "fiddle"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "drum",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "trumpet",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "saxophone",
+      "aliases": [
+        "sax"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "microphone",
+      "aliases": [
+        "mic"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "headphones",
+      "aliases": [
+        "headset"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "key",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "padlock",
+      "aliases": [
+        "lock"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "scissors",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "hammer",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "wrench",
+      "aliases": [
+        "spanner"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "screwdriver",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "saw",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "axe",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "shovel",
+      "aliases": [
+        "spade"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "ladder",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "bucket",
+      "aliases": [
+        "pail"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "broom",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "candle",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "lamp",
+      "aliases": [
+        "desk lamp"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "light bulb",
+      "aliases": [
+        "lightbulb",
+        "bulb"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "flashlight",
+      "aliases": [
+        "torch"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "alarm clock",
+      "aliases": [
+        "clock"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "wristwatch",
+      "aliases": [
+        "watch"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "hourglass",
+      "aliases": [
+        "sand timer",
+        "egg timer"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "compass",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "telescope",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "microscope",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "magnifying glass",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "camera",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "television",
+      "aliases": [
+        "tv"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "radio",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "telephone",
+      "aliases": [
+        "phone",
+        "rotary phone"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "laptop",
+      "aliases": [
+        "computer"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "book",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "pencil",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "paintbrush",
+      "aliases": [
+        "brush"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "envelope",
+      "aliases": [
+        "letter"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "backpack",
+      "aliases": [
+        "rucksack",
+        "bag"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "suitcase",
+      "aliases": [
+        "luggage"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "glasses",
+      "aliases": [
+        "spectacles",
+        "eyeglasses"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "sunglasses",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "top hat",
+      "aliases": [
+        "hat"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "crown",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "ring",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "shoe",
+      "aliases": [
+        "sneaker",
+        "trainer"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "boot",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "sock",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "t-shirt",
+      "aliases": [
+        "tshirt",
+        "shirt",
+        "tee"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "glove",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "chair",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "bed",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "sofa",
+      "aliases": [
+        "couch"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "bathtub",
+      "aliases": [
+        "bath"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "kite",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "balloon",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "soccer ball",
+      "aliases": [
+        "football"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "basketball",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "skateboard",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "dice",
+      "aliases": [
+        "die"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "teddy bear",
+      "aliases": [
+        "teddy"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "rubber duck",
+      "aliases": [
+        "rubber duckie"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "trophy",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "gift",
+      "aliases": [
+        "present",
+        "gift box"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "bell",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "anchor",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "sword",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "car",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "bus",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "truck",
+      "aliases": [
+        "lorry"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "train",
+      "aliases": [
+        "locomotive",
+        "steam train"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "airplane",
+      "aliases": [
+        "plane",
+        "aeroplane",
+        "jet"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "helicopter",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "rocket",
+      "aliases": [
+        "spaceship"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "sailboat",
+      "aliases": [
+        "sailing boat",
+        "yacht"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "submarine",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "tractor",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "motorcycle",
+      "aliases": [
+        "motorbike"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "hot air balloon",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "fire truck",
+      "aliases": [
+        "fire engine"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "kettle",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "frying pan",
+      "aliases": [
+        "pan",
+        "skillet"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "spoon",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "mug",
+      "aliases": [
+        "cup"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "toaster",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "watering can",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "wheelbarrow",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "mailbox",
+      "aliases": [
+        "postbox"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "traffic light",
+      "aliases": [
+        "traffic lights",
+        "stoplight"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "magnet",
+      "aliases": [
+        "horseshoe magnet"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "paperclip",
+      "aliases": [
+        "paper clip"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "globe",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "lantern",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "piggy bank",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "snowman",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "lighthouse",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "windmill",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "pyramid",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "castle",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "igloo",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "tent",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "barn",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "house",
+      "aliases": [
+        "home"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "skyscraper",
+      "aliases": [
+        "tower block"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "pagoda",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "clock tower",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "bridge",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "rope bridge",
+      "aliases": [
+        "suspension bridge"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "wishing well",
+      "aliases": [
+        "well"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "fountain",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "treehouse",
+      "aliases": [
+        "tree house"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "log cabin",
+      "aliases": [
+        "cabin"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "hut",
+      "aliases": [
+        "shack"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "greenhouse",
+      "aliases": [
+        "glasshouse"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "gas station",
+      "aliases": [
+        "petrol station"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "schoolhouse",
+      "aliases": [
+        "school"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "factory",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "wind turbine",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "water tower",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "silo",
+      "aliases": [
+        "grain silo"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "pier",
+      "aliases": [
+        "jetty",
+        "dock"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "swing set",
+      "aliases": [
+        "swing"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "playground slide",
+      "aliases": [
+        "slide"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "seesaw",
+      "aliases": [
+        "teeter-totter"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "carousel",
+      "aliases": [
+        "merry-go-round"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "ferris wheel",
+      "aliases": [
+        "big wheel"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "roller coaster",
+      "aliases": [
+        "rollercoaster"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "circus tent",
+      "aliases": [
+        "big top"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "stadium",
+      "aliases": [
+        "arena"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "amphitheater",
+      "aliases": [
+        "amphitheatre"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "sandcastle",
+      "aliases": [
+        "sand castle"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "beach hut",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "bus stop",
+      "aliases": [
+        "bus shelter"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "train station",
+      "aliases": [
+        "railway station"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "phone booth",
+      "aliases": [
+        "telephone box",
+        "phone box"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "lamppost",
+      "aliases": [
+        "street lamp",
+        "streetlight"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "park bench",
+      "aliases": [
+        "bench"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "gazebo",
+      "aliases": [
+        "bandstand"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "stone circle",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "obelisk",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "statue",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "apartment building",
+      "aliases": [
+        "apartment block",
+        "flats"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "observatory",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "ruins",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "cottage",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "houseboat",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "lifeguard tower",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "watchtower",
+      "aliases": [
+        "lookout tower"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "cable car",
+      "aliases": [
+        "gondola"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "space station",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "museum",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "fire station",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "theater",
+      "aliases": [
+        "theatre",
+        "stage"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "shop",
+      "aliases": [
+        "store",
+        "storefront"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "cafe",
+      "aliases": [
+        "coffee shop"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "market stall",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "doghouse",
+      "aliases": [
+        "kennel"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "birdhouse",
+      "aliases": [
+        "nest box"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "chicken coop",
+      "aliases": [
+        "henhouse"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "watermill",
+      "aliases": [
+        "water mill"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "garden gate",
+      "aliases": [
+        "gate"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "palace",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "fort",
+      "aliases": [
+        "fortress"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "swimming pool",
+      "aliases": [
+        "pool"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "playground",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "haunted house",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "gravestone",
+      "aliases": [
+        "tombstone",
+        "headstone"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "maze",
+      "aliases": [
+        "labyrinth"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "yurt",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "aqueduct",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "stone arch",
+      "aliases": [
+        "arch"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "ziggurat",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "bell tower",
+      "aliases": [
+        "belfry"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "garage",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "shed",
+      "aliases": [
+        "garden shed"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "diner",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "kiosk",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "toll booth",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "control tower",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "radio tower",
+      "aliases": [
+        "radio mast",
+        "antenna tower"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "oil rig",
+      "aliases": [
+        "oil platform"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "dam",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "tunnel",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "mine",
+      "aliases": [
+        "mineshaft",
+        "mine shaft"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "drawbridge",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "cave",
+      "aliases": [
+        "cavern"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "chalet",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "farmhouse",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "town hall",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "mansion",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "harbor",
+      "aliases": [
+        "harbour",
+        "port"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "campsite",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "log fort",
+      "aliases": [
+        "stockade"
+      ],
+      "category": "Place"
+    },
+    {
+      "word": "bank",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "oasis",
+      "aliases": [],
+      "category": "Place"
+    },
+    {
+      "word": "tree",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "palm tree",
+      "aliases": [
+        "palm"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "pine tree",
+      "aliases": [
+        "fir tree",
+        "evergreen"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "oak tree",
+      "aliases": [
+        "oak"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "cactus",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "flower",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "rose",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "sunflower",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "tulip",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "daisy",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "water lily",
+      "aliases": [
+        "lily pad"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "mushroom",
+      "aliases": [
+        "toadstool",
+        "fungus"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "leaf",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "maple leaf",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "clover",
+      "aliases": [
+        "four-leaf clover",
+        "shamrock"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "acorn",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "pinecone",
+      "aliases": [
+        "pine cone"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "seashell",
+      "aliases": [
+        "shell",
+        "conch"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "coral",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "feather",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "rock",
+      "aliases": [
+        "stone",
+        "boulder"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "crystal",
+      "aliases": [
+        "gem",
+        "gemstone"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "mountain",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "volcano",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "island",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "waterfall",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "rainbow",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "cloud",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "sun",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "moon",
+      "aliases": [
+        "crescent moon"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "star",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "comet",
+      "aliases": [
+        "shooting star"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "planet",
+      "aliases": [
+        "ringed planet"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "lightning",
+      "aliases": [
+        "lightning bolt",
+        "thunderbolt"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "tornado",
+      "aliases": [
+        "twister"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "snowflake",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "raindrop",
+      "aliases": [
+        "water drop",
+        "droplet"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "iceberg",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "sand dune",
+      "aliases": [
+        "dune"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "wave",
+      "aliases": [
+        "ocean wave"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "bonsai",
+      "aliases": [
+        "bonsai tree"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "bamboo",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "fern",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "cherry blossom",
+      "aliases": [
+        "blossom",
+        "sakura"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "dandelion",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "poppy",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "orchid",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "hibiscus",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "venus flytrap",
+      "aliases": [
+        "flytrap"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "tree stump",
+      "aliases": [
+        "stump"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "log",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "bird nest",
+      "aliases": [
+        "nest"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "beehive",
+      "aliases": [
+        "hive"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "spider web",
+      "aliases": [
+        "cobweb",
+        "web"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "anthill",
+      "aliases": [
+        "ant hill"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "fossil",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "fire",
+      "aliases": [
+        "flame"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "campfire",
+      "aliases": [
+        "bonfire"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "icicle",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "meteor",
+      "aliases": [
+        "meteorite",
+        "asteroid"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "geyser",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "tumbleweed",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "wheat",
+      "aliases": [
+        "ear of wheat"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "holly",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "mistletoe",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "sprout",
+      "aliases": [
+        "seedling"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "potted plant",
+      "aliases": [
+        "houseplant",
+        "plant"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "lily",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "lavender",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "pearl",
+      "aliases": [
+        "oyster"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "seaweed",
+      "aliases": [
+        "kelp"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "bone",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "skull",
+      "aliases": [
+        "human skull"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "lotus",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "vine",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "willow tree",
+      "aliases": [
+        "willow"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "birch tree",
+      "aliases": [
+        "birch"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "autumn leaf",
+      "aliases": [
+        "fall leaf"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "snowball",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "sunrise",
+      "aliases": [
+        "sunset"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "eclipse",
+      "aliases": [
+        "solar eclipse"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "peony",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "whirlpool",
+      "aliases": [
+        "vortex"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "olive branch",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "hay bale",
+      "aliases": [
+        "haystack"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "canyon",
+      "aliases": [
+        "gorge"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "glacier",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "succulent",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "cliff",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "thistle",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "ivy",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "pebble",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "rain cloud",
+      "aliases": [
+        "storm cloud",
+        "thundercloud"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "apple tree",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "cattail",
+      "aliases": [
+        "bulrush",
+        "reed"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "daffodil",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "bush",
+      "aliases": [
+        "shrub"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "baobab",
+      "aliases": [
+        "baobab tree"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "driftwood",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "snowdrop",
+      "aliases": [],
+      "category": "Nature"
+    },
+    {
+      "word": "jack-o-lantern",
+      "aliases": [
+        "jack o lantern",
+        "jackolantern",
+        "carved pumpkin",
+        "halloween pumpkin"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "black cat",
+      "aliases": [
+        "black kitten"
+      ],
+      "category": "Animal"
+    },
+    {
+      "word": "ghost",
+      "aliases": [
+        "spirit",
+        "phantom",
+        "spook",
+        "specter",
+        "spectre"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "witch hat",
+      "aliases": [
+        "witches hat",
+        "witchs hat",
+        "witch s hat"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "cauldron",
+      "aliases": [
+        "witches cauldron",
+        "witchs cauldron",
+        "witch cauldron"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "christmas tree",
+      "aliases": [
+        "xmas tree"
+      ],
+      "category": "Nature"
+    },
+    {
+      "word": "mitten",
+      "aliases": [
+        "mittens"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "snow globe",
+      "aliases": [
+        "snowglobe"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "fireworks",
+      "aliases": [
+        "firework"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "party popper",
+      "aliases": [
+        "popper",
+        "confetti popper"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "party hat",
+      "aliases": [
+        "birthday hat"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "disco ball",
+      "aliases": [
+        "mirror ball",
+        "glitter ball"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "pocket watch",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "calendar",
+      "aliases": [],
+      "category": "Object"
+    },
+    {
+      "word": "balloon bunch",
+      "aliases": [
+        "balloons"
+      ],
+      "category": "Object"
+    },
+    {
+      "word": "noisemaker horn",
+      "aliases": [
+        "party horn",
+        "noisemaker",
+        "party blower"
+      ],
+      "category": "Object"
+    }
+  ]
+}

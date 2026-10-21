@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Play Pixelate: today's puzzle</title>
+  <meta name="description" content="Play today's Pixelate puzzle in your browser: guess the pixel-art picture in six tries as it sharpens with every wrong guess.">
+  <meta name="theme-color" content="#fafaf8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111317" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6819086279">
+  <link rel="stylesheet" href="../assets/site.css">
+  <link rel="stylesheet" href="../assets/play.css">
+</head>
+<body>
+  <div class="wrap">
+    <main>
+      <section class="hero play">
+        <h1 class="wordmark"><a href="../">Pixelate</a></h1>
+        <p class="lede" id="title">Today's puzzle</p>
+
+        <div id="view-loading">
+          <p class="muted">Loading the puzzle&hellip;</p>
+          <noscript><p>The puzzle needs JavaScript. You can also play in the iPhone app.</p></noscript>
+        </div>
+
+        <div id="view-message" class="card message" hidden>
+          <h2 id="msg-title"></h2>
+          <p id="msg-body" class="muted"></p>
+          <p id="msg-link" hidden><a href="./">Play today's puzzle</a></p>
+        </div>
+
+        <div id="view-play" hidden>
+          <div class="stage" id="stage">
+            <img id="reveal" width="96" height="96" alt="">
+          </div>
+          <p class="step" id="status">&nbsp;</p>
+          <div class="tracker" id="tracker" role="img" aria-label="">
+            <span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span><span class="slot empty"></span>
+          </div>
+
+          <form id="guess-form" class="guess" novalidate>
+            <label for="guess" class="visually-hidden">Your guess</label>
+            <input id="guess" name="guess" type="text" placeholder="What is it?" maxlength="60"
+                   autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="go">
+            <button type="submit" class="btn">Guess</button>
+          </form>
+          <p id="feedback" class="feedback" aria-live="polite"></p>
+
+          <div id="hints" class="hints">
+            <p id="hint-text" class="hint-text" hidden></p>
+            <div class="hint-actions">
+              <button type="button" id="hint1" class="link-btn" disabled>Need a hint?</button>
+              <span id="hint-lock" class="hint-lock" hidden></span>
+              <button type="button" id="hint2" class="link-btn" hidden>Another hint?</button>
+            </div>
+          </div>
+
+          <div id="end" class="end" hidden>
+            <p class="end-title" id="end-title"></p>
+            <p class="answer" id="end-answer"></p>
+            <button type="button" id="share" class="btn">Share</button>
+            <p id="share-note" class="share-note" aria-live="polite"></p>
+            <label for="share-fallback" class="visually-hidden">Share text</label>
+            <textarea id="share-fallback" class="share-fallback" rows="3" readonly hidden></textarea>
+            <pre id="share-preview" class="share-preview" aria-label="Share preview"></pre>
+            <p id="countdown" class="countdown" hidden></p>
+          </div>
+        </div>
+
+        <div id="funnel" class="card funnel" hidden>
+          <h2>Keep your streak in the app</h2>
+          <p class="muted">A new picture every day on iPhone. Solve each day to build a streak.</p>
+          <a class="badge" href="https://apps.apple.com/app/id6819086279" aria-label="Download on the App Store">
+            <svg viewBox="0 0 180 54" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <rect x="0.5" y="0.5" width="179" height="53" rx="10" fill="#000" stroke="#a6a6a6"/>
+              <text x="90" y="21" fill="#fff" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" letter-spacing="0.2">Download on the</text>
+              <text x="90" y="41" fill="#fff" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="-0.3">App Store</text>
+            </svg>
+          </a>
+          <p id="open-app-line" class="open-app" hidden>Already have it? <a id="open-app" href="pixelate://day/0">Open in Pixelate</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site">
+      <nav><a href="../">Pixelate</a><a href="../privacy.html">Privacy</a><a href="../support.html">Support</a></nav>
+      <div>&copy; 2026 Taisen Industries LLC</div>
+    </footer>
+  </div>
+  <script src="../assets/play.js"></script>
+</body>
+</html>

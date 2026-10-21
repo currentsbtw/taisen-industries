@@ -43,6 +43,7 @@
             <text x="90" y="41" fill="#fff" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="-0.3">App Store</text>
           </svg>
         </a>
+        <p class="playlink" style="margin: 14px 0 0; font-size: 0.95rem;"><a href="play/">Play today&rsquo;s puzzle in your browser</a></p>
       </section>
 
       <ul class="features">
@@ -90,6 +91,13 @@
       strip.appendChild(open);
       strip.appendChild(document.createTextNode(" · "));
       strip.appendChild(store);
+      if (day !== null && /^[0-9]{1,5}$/.test(day)) {
+        var web = document.createElement("a");
+        web.href = "play/?d=" + Number(day);
+        web.textContent = "Play in your browser";
+        strip.appendChild(document.createTextNode(" · "));
+        strip.appendChild(web);
+      }
       strip.hidden = false;
     }
 
